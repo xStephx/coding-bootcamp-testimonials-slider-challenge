@@ -19,15 +19,18 @@
 </head>
 
 <body class="font-Inter">
-  <main class="relative container mx-auto flex md:flex-row flex-col justify-center items-center min-h-screen p-4">
+  <!-- Testimonials -->
+  <main class="relative flex md:flex-row flex-col justify-center items-center min-h-screen p-4">
     <div class="md:max-w-2xl md:order-1 order-2 p-10 lg:mr-[-220px] md:mr-[-100px] z-20">
       <div class="relative">
         <img src="assets/images/pattern-quotes.svg" alt="Quotes Pattern" class="absolute md:left-[50px] left-[30%] ">
       </div>
-      <p id="paragraph" class="text-DarkBlue font-light lg:text-3xl md:text-xl text-xl md:text-start text-center mt-16 mb-8"></p>
+      <!-- Testimonials Content -->
+      <h1 id="paragraph" class="text-DarkBlue font-light lg:text-3xl md:text-xl text-xl md:text-start text-center mt-16 mb-8"></h1>
       <p id="name" class="text-DarkBlue font-bold md:inline-block block md:text-xl text-lg md:text-start text-center"></p>
       <p id="role" class="text-GrayishBlue font-normal md:inline-block block md:text-start text-center lg:ml-1"></p>
     </div>
+    <!-- Testimonials Images -->
     <div class="relative md:max-w-2xl flex flex-col justify-center items-center bg-[url('assets/images/pattern-bg.svg')] bg-contain bg-center bg-no-repeat w-full lg:p-20 md:p-16 p-10 md:order-2 order-1 z-10">
       <img id="image" src="#" alt="Image" class="lg:w-full w-[350px] shadow-md shadow-DarkBlue/20 rounded-lg">
       <div class="flex flex-row absolute md:bottom-[50px] bottom-[20px] lg:left-[160px] bg-white rounded-full shadow-lg shadow-DarkBlue/60">
@@ -39,10 +42,11 @@
         </button>
       </div>
     </div>
+    <!-- Figure Curve Pattern -->
+    <figure class="absolute bottom-0 left-0">
+      <img src="assets/images/pattern-curve.svg" alt="Curve Pattern" class=" md:w-auto w-[300px]">
+    </figure>
   </main>
-  <figure class="relative">
-    <img src="assets/images/pattern-curve.svg" alt="Curve Pattern" class="absolute bottom-0 md:w-auto w-[300px]">
-  </figure>
   <!-- Custom JS -->
   <script src="./assets/js/script.js"></script>
 </body>
